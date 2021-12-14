@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="addItemController">
+   <children>
+      <AnchorPane layoutX="-14.0" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #c04ec6;">
+         <children>
+            <AnchorPane layoutX="-25.0" layoutY="73.0" prefHeight="342.0" prefWidth="739.0" style="-fx-background-color: #ffb3ff;">
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffb3ff;" />
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+                  <AnchorPane layoutX="50.0" layoutY="18.0" prefHeight="306.0" prefWidth="675.0" style="-fx-background-color: #f580f9;">
+                     <children>
+                        <AnchorPane layoutX="-80.0" layoutY="78.0" prefHeight="234.0" prefWidth="659.0" style="-fx-background-color: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;?import javafx.scene.control.TextField?&gt;&lt;?import javafx.scene.layout.AnchorPane?&gt;&lt;?import javafx.scene.text.Font?&gt;&lt;AnchorPane layoutX=&quot;26.0&quot; layoutY=&quot;37.0&quot; prefHeight=&quot;45.0&quot; prefWidth=&quot;295.0&quot; style=&quot;-fx-background-color: #ffb3ff;&quot; xmlns=&quot;http://javafx.com/javafx/17&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot;&gt;   &lt;children&gt;      &lt;TextField layoutX=&quot;-22.0&quot; layoutY=&quot;-5.0&quot; prefHeight=&quot;39.0&quot; prefWidth=&quot;303.0&quot; style=&quot;-fx-focus-traversable: #ffb3ff;&quot; text=&quot;User Name&quot;&gt;         &lt;font&gt;            &lt;Font size=&quot;18.0&quot; /&gt;         &lt;/font&gt;      &lt;/TextField&gt;   &lt;/children&gt;&lt;/AnchorPane&gt;;">
+                           <children>
+                              <AnchorPane layoutX="257.0" layoutY="29.0" prefHeight="43.0" prefWidth="362.0" style="-fx-background-color: #ffffff;" />
+                              <AnchorPane layoutX="267.0" layoutY="33.0" prefHeight="43.0" prefWidth="362.0" style="-fx-background-color: #ffb3ff;">
+                                 <children>
+                                    <Label contentDisplay="CENTER" layoutX="26.0" layoutY="4.0" prefHeight="16.0" prefWidth="322.0" style="-fx-background-color: #ffb3ff;" text="Nothing is planned for today." textFill="WHITE">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <ImageView fx:id="addButton" fitHeight="43.0" fitWidth="45.0" layoutX="180.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../Desktop/add--v2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Label alignment="CENTER" layoutX="264.0" layoutY="-8.0" text="To Do" textAlignment="CENTER" textFill="#fcfffd" textOverrun="LEADING_WORD_ELLIPSIS">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
+	<!-- TODO Add Nodes -->
+</AnchorPane>
+
